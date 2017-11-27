@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC58A8451FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC58A8441FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */; };
+		DC58A8471FCBC981004D5C96 /* BUUU.png in Resources */ = {isa = PBXBuildFile; fileRef = DC58A8461FCBC981004D5C96 /* BUUU.png */; };
+		DC58A8491FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC58A8481FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png */; };
 		DC6E416B1FCB969900EF5A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */; };
 		DC6E416D1FCB969900EF5A14 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */; };
 		DC6E416F1FCB969900EF5A14 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */; };
@@ -15,11 +18,8 @@
 		DC6E41771FCB969900EF5A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41751FCB969900EF5A14 /* LaunchScreen.storyboard */; };
 		DC6E41821FCB969900EF5A14 /* Trip_JakartaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E41811FCB969900EF5A14 /* Trip_JakartaTests.swift */; };
 		DC6E418D1FCB969900EF5A14 /* Trip_JakartaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E418C1FCB969900EF5A14 /* Trip_JakartaUITests.swift */; };
-		DC6E419B1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6E419A1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png */; };
 		DC6E419D1FCBA4D200EF5A14 /* JalanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E419C1FCBA4D200EF5A14 /* JalanViewController.swift */; };
 		DC6E419F1FCBA67400EF5A14 /* KotaWisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E419E1FCBA67400EF5A14 /* KotaWisata.swift */; };
-		DC6E41A11FCBACFF00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41A01FCBACFE00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */; };
-		DC6E41A31FCBAF8800EF5A14 /* BUUU.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41A21FCBAF8800EF5A14 /* BUUU.png */; };
 		DC6E41A91FCBBE0D00EF5A14 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E41A81FCBBE0D00EF5A14 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC58A8441FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jakarta-rizal-renaldi-iphone6-750x1334.jpg"; path = "../../../../../Downloads/jakarta-rizal-renaldi-iphone6-750x1334.jpg"; sourceTree = "<group>"; };
+		DC58A8461FCBC981004D5C96 /* BUUU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BUUU.png; path = ../../../../../Desktop/BUUU.png; sourceTree = "<group>"; };
+		DC58A8481FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-11-27 at 07.55.32.png"; path = "../../../../../Desktop/Screen Shot 2017-11-27 at 07.55.32.png"; sourceTree = "<group>"; };
 		DC6E41671FCB969900EF5A14 /* Trip Jakarta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Jakarta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -55,11 +58,8 @@
 		DC6E41881FCB969900EF5A14 /* Trip JakartaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trip JakartaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6E418C1FCB969900EF5A14 /* Trip_JakartaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_JakartaUITests.swift; sourceTree = "<group>"; };
 		DC6E418E1FCB969900EF5A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC6E419A1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-11-27 at 07.55.32.png"; path = "../../../../Desktop/Screen Shot 2017-11-27 at 07.55.32.png"; sourceTree = "<group>"; };
 		DC6E419C1FCBA4D200EF5A14 /* JalanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JalanViewController.swift; sourceTree = "<group>"; };
 		DC6E419E1FCBA67400EF5A14 /* KotaWisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotaWisata.swift; sourceTree = "<group>"; };
-		DC6E41A01FCBACFE00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jakarta-rizal-renaldi-iphone6-750x1334.jpg"; path = "../../../../Downloads/jakarta-rizal-renaldi-iphone6-750x1334.jpg"; sourceTree = "<group>"; };
-		DC6E41A21FCBAF8800EF5A14 /* BUUU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BUUU.png; path = ../../../../Desktop/BUUU.png; sourceTree = "<group>"; };
 		DC6E41A81FCBBE0D00EF5A14 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,9 +111,9 @@
 		DC6E41691FCB969900EF5A14 /* Trip Jakarta */ = {
 			isa = PBXGroup;
 			children = (
-				DC6E41A21FCBAF8800EF5A14 /* BUUU.png */,
-				DC6E41A01FCBACFE00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */,
-				DC6E419A1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png */,
+				DC58A8481FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png */,
+				DC58A8461FCBC981004D5C96 /* BUUU.png */,
+				DC58A8441FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */,
 				DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */,
 				DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */,
 				DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */,
@@ -253,12 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6E41A31FCBAF8800EF5A14 /* BUUU.png in Resources */,
 				DC6E41771FCB969900EF5A14 /* LaunchScreen.storyboard in Resources */,
-				DC6E419B1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */,
-				DC6E41A11FCBACFF00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */,
+				DC58A8471FCBC981004D5C96 /* BUUU.png in Resources */,
 				DC6E41741FCB969900EF5A14 /* Assets.xcassets in Resources */,
 				DC6E41721FCB969900EF5A14 /* Main.storyboard in Resources */,
+				DC58A8451FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */,
+				DC58A8491FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

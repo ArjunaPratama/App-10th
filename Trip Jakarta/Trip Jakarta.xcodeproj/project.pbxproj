@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC58A8451FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC58A8441FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */; };
-		DC58A8471FCBC981004D5C96 /* BUUU.png in Resources */ = {isa = PBXBuildFile; fileRef = DC58A8461FCBC981004D5C96 /* BUUU.png */; };
-		DC58A8491FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC58A8481FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png */; };
 		DC6E416B1FCB969900EF5A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */; };
 		DC6E416D1FCB969900EF5A14 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */; };
 		DC6E416F1FCB969900EF5A14 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */; };
@@ -41,9 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC58A8441FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jakarta-rizal-renaldi-iphone6-750x1334.jpg"; path = "../../../../../Downloads/jakarta-rizal-renaldi-iphone6-750x1334.jpg"; sourceTree = "<group>"; };
-		DC58A8461FCBC981004D5C96 /* BUUU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BUUU.png; path = ../../../../../Desktop/BUUU.png; sourceTree = "<group>"; };
-		DC58A8481FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-11-27 at 07.55.32.png"; path = "../../../../../Desktop/Screen Shot 2017-11-27 at 07.55.32.png"; sourceTree = "<group>"; };
 		DC6E41671FCB969900EF5A14 /* Trip Jakarta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Jakarta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -111,9 +105,6 @@
 		DC6E41691FCB969900EF5A14 /* Trip Jakarta */ = {
 			isa = PBXGroup;
 			children = (
-				DC58A8481FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png */,
-				DC58A8461FCBC981004D5C96 /* BUUU.png */,
-				DC58A8441FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */,
 				DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */,
 				DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */,
 				DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */,
@@ -254,11 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC6E41771FCB969900EF5A14 /* LaunchScreen.storyboard in Resources */,
-				DC58A8471FCBC981004D5C96 /* BUUU.png in Resources */,
 				DC6E41741FCB969900EF5A14 /* Assets.xcassets in Resources */,
 				DC6E41721FCB969900EF5A14 /* Main.storyboard in Resources */,
-				DC58A8451FCBC96C004D5C96 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */,
-				DC58A8491FCBC989004D5C96 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Trip_Jakarta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Ec1-bN-z2F">
+                                <rect key="frame" x="119" y="288" width="240" height="301"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Ert-Bg-qN8"/>
+                                    <constraint firstAttribute="height" constant="301" id="kk0-8N-rNm"/>
+                                </constraints>
+                                <string key="text">Jakarta merupakan ibukota dari Negara Indonesia.Di ibukota indonesia ini memiliki banyak sekali tempat bersejarah dan juga tempat wisata yang bisa kita jadikan sebuah sarana pengajaran bagi anak -anak.Monumen Nasional atau yang populer disingkat dengan Monas atau Tugu Monas adalah monumen peringatan setinggi 132 meter (433 kaki) yang didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda. Pembangunan monumen ini dimulai pada tanggal 17 Agustus 1961 di bawah perintah presiden Sukarno, dan dibuka untuk umum pada tanggal 12 Juli 1975. Tugu ini dimahkotai lidah api yang dilapisi lembaran emas yang melambangkan semangat perjuangan yang menyala-nyala. Monumen Nasional terletak tepat di tengah Lapangan Medan Merdeka, Jakarta Pusat. Monumen dan museum ini dibuka setiap hari mulai pukul 08.00 - 15.00 WIB. Pada hari Senin pekan terakhir setiap bulannya ditutup untuk umum.</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ec1-bN-z2F" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="268" id="7Sy-ss-EDy"/>
+                            <constraint firstItem="Ec1-bN-z2F" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="119" id="OOD-Ln-UXG"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="Ec1-bN-z2F" secondAttribute="bottom" constant="29" id="Oc9-sk-c1p"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="Ec1-bN-z2F" secondAttribute="trailing" constant="16" id="WB3-Hg-d2w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HOME" image="web-page-home" selectedImage="web-page-home" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Maps-->
+        <scene sceneID="B4w-V0-51m">
+            <objects>
+                <viewController id="mdc-Db-Ab1" customClass="JalanViewController" customModule="Trip_Jakarta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EgD-LH-y9k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WNT-rg-5HQ">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="574" id="3Lw-3A-1zF"/>
+                                    <constraint firstAttribute="width" constant="375" id="de1-FQ-tVP"/>
+                                </constraints>
+                            </mapView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0n-IP-b5k">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="LTd-cR-mkK"/>
+                                    <constraint firstAttribute="width" constant="375" id="sBu-SI-7PR"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="MAPS" id="PME-aj-JEH">
+                                        <barButtonItem key="leftBarButtonItem" title="BACK" id="wMU-Rm-wJ1">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="DDq-Ys-PZx"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WNT-rg-5HQ" firstAttribute="top" secondItem="I0n-IP-b5k" secondAttribute="bottom" id="1QC-bN-KEk"/>
+                            <constraint firstItem="I0n-IP-b5k" firstAttribute="top" secondItem="EgD-LH-y9k" secondAttribute="top" id="BQE-CG-32H"/>
+                            <constraint firstItem="I0n-IP-b5k" firstAttribute="leading" secondItem="WNT-rg-5HQ" secondAttribute="leading" id="Boq-u2-s7o"/>
+                            <constraint firstItem="I0n-IP-b5k" firstAttribute="leading" secondItem="2C5-mO-axe" secondAttribute="leading" id="C0f-3O-Qdz"/>
+                            <constraint firstItem="WNT-rg-5HQ" firstAttribute="leading" secondItem="2C5-mO-axe" secondAttribute="leading" id="DVs-rG-IW5"/>
+                            <constraint firstItem="WNT-rg-5HQ" firstAttribute="trailing" secondItem="2C5-mO-axe" secondAttribute="trailing" id="M7B-2n-ZJp"/>
+                            <constraint firstItem="I0n-IP-b5k" firstAttribute="trailing" secondItem="WNT-rg-5HQ" secondAttribute="trailing" id="WTC-vr-l3z"/>
+                            <constraint firstItem="WNT-rg-5HQ" firstAttribute="bottom" secondItem="2C5-mO-axe" secondAttribute="bottom" id="YnZ-sE-0zg"/>
+                            <constraint firstItem="I0n-IP-b5k" firstAttribute="trailing" secondItem="2C5-mO-axe" secondAttribute="trailing" id="gqp-Oo-1ne"/>
+                            <constraint firstItem="WNT-rg-5HQ" firstAttribute="top" secondItem="I0n-IP-b5k" secondAttribute="bottom" id="u3V-Wb-Kqa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2C5-mO-axe"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Maps" image="placeholder" id="o2F-2c-XcL"/>
+                    <connections>
+                        <outlet property="mapView" destination="WNT-rg-5HQ" id="mve-KP-XfN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MHx-Mc-m1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="1155"/>
+        </scene>
+        <!--Web-->
+        <scene sceneID="0N0-sG-0H9">
+            <objects>
+                <viewController id="FDW-TR-jg2" customClass="WebViewController" customModule="Trip_Jakarta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2KD-Hy-sNS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kPc-xr-0Fi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="KUB-lV-uyN"/>
+                                    <constraint firstAttribute="height" constant="44" id="ttX-Su-Or3"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="WEB" id="rf6-xH-cH3">
+                                        <barButtonItem key="leftBarButtonItem" title="BACK" id="cUo-mf-Owo">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="RsF-No-ycE"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dQ-Q5-xcY">
+                                <rect key="frame" x="-187" y="93" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQ8-jI-BPD">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="574" id="MtY-TR-Qgu"/>
+                                    <constraint firstAttribute="width" constant="375" id="sbE-eA-egG"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oQ8-jI-BPD" firstAttribute="leading" secondItem="SZE-nd-EHS" secondAttribute="leading" id="Lyb-uz-mzE"/>
+                            <constraint firstItem="oQ8-jI-BPD" firstAttribute="trailing" secondItem="SZE-nd-EHS" secondAttribute="trailing" id="QlC-MC-yWT"/>
+                            <constraint firstItem="oQ8-jI-BPD" firstAttribute="top" secondItem="kPc-xr-0Fi" secondAttribute="bottom" id="Ssn-jm-YDf"/>
+                            <constraint firstItem="kPc-xr-0Fi" firstAttribute="leading" secondItem="SZE-nd-EHS" secondAttribute="leading" id="VKo-bj-NzG"/>
+                            <constraint firstItem="kPc-xr-0Fi" firstAttribute="trailing" secondItem="SZE-nd-EHS" secondAttribute="trailing" id="eVG-z2-EBh"/>
+                            <constraint firstItem="kPc-xr-0Fi" firstAttribute="top" secondItem="2KD-Hy-sNS" secondAttribute="top" id="f2h-mJ-DJh"/>
+                            <constraint firstItem="oQ8-jI-BPD" firstAttribute="top" secondItem="kPc-xr-0Fi" secondAttribute="bottom" id="mif-T4-zaG"/>
+                            <constraint firstItem="oQ8-jI-BPD" firstAttribute="bottom" secondItem="SZE-nd-EHS" secondAttribute="bottom" id="nt8-LU-jn0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SZE-nd-EHS"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Web" image="grid-world" selectedImage="first" id="A9T-mm-lVP"/>
+                    <connections>
+                        <outlet property="webViewApps" destination="oQ8-jI-BPD" id="2gZ-0i-3kh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GlG-Rh-v6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864.79999999999995" y="406.14692653673166"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="mdc-Db-Ab1" kind="relationship" relationship="viewControllers" id="2Ga-ic-QNH"/>
+                        <segue destination="FDW-TR-jg2" kind="relationship" relationship="viewControllers" id="zUq-5d-qP9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="grid-world" width="32" height="32"/>
+        <image name="placeholder" width="32" height="32"/>
+        <image name="web-page-home" width="32" height="32"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="RsF-No-ycE"/>
+    </inferredMetricsTieBreakers>
+</document>

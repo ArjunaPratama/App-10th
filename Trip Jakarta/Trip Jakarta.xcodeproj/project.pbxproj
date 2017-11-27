@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6E416B1FCB969900EF5A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */; };
+		DC6E416D1FCB969900EF5A14 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */; };
+		DC6E416F1FCB969900EF5A14 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */; };
+		DC6E41721FCB969900EF5A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41701FCB969900EF5A14 /* Main.storyboard */; };
+		DC6E41741FCB969900EF5A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41731FCB969900EF5A14 /* Assets.xcassets */; };
+		DC6E41771FCB969900EF5A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41751FCB969900EF5A14 /* LaunchScreen.storyboard */; };
+		DC6E41821FCB969900EF5A14 /* Trip_JakartaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E41811FCB969900EF5A14 /* Trip_JakartaTests.swift */; };
+		DC6E418D1FCB969900EF5A14 /* Trip_JakartaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E418C1FCB969900EF5A14 /* Trip_JakartaUITests.swift */; };
+		DC6E419B1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6E419A1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png */; };
+		DC6E419D1FCBA4D200EF5A14 /* JalanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E419C1FCBA4D200EF5A14 /* JalanViewController.swift */; };
+		DC6E419F1FCBA67400EF5A14 /* KotaWisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E419E1FCBA67400EF5A14 /* KotaWisata.swift */; };
+		DC6E41A11FCBACFF00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41A01FCBACFE00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */; };
+		DC6E41A31FCBAF8800EF5A14 /* BUUU.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6E41A21FCBAF8800EF5A14 /* BUUU.png */; };
+		DC6E41A91FCBBE0D00EF5A14 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E41A81FCBBE0D00EF5A14 /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6E417E1FCB969900EF5A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6E415F1FCB969900EF5A14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6E41661FCB969900EF5A14;
+			remoteInfo = "Trip Jakarta";
+		};
+		DC6E41891FCB969900EF5A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6E415F1FCB969900EF5A14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6E41661FCB969900EF5A14;
+			remoteInfo = "Trip Jakarta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC6E41671FCB969900EF5A14 /* Trip Jakarta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Jakarta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC6E41711FCB969900EF5A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC6E41731FCB969900EF5A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC6E41761FCB969900EF5A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC6E41781FCB969900EF5A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6E417D1FCB969900EF5A14 /* Trip JakartaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trip JakartaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E41811FCB969900EF5A14 /* Trip_JakartaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_JakartaTests.swift; sourceTree = "<group>"; };
+		DC6E41831FCB969900EF5A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6E41881FCB969900EF5A14 /* Trip JakartaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trip JakartaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E418C1FCB969900EF5A14 /* Trip_JakartaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_JakartaUITests.swift; sourceTree = "<group>"; };
+		DC6E418E1FCB969900EF5A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6E419A1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-11-27 at 07.55.32.png"; path = "../../../../Desktop/Screen Shot 2017-11-27 at 07.55.32.png"; sourceTree = "<group>"; };
+		DC6E419C1FCBA4D200EF5A14 /* JalanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JalanViewController.swift; sourceTree = "<group>"; };
+		DC6E419E1FCBA67400EF5A14 /* KotaWisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotaWisata.swift; sourceTree = "<group>"; };
+		DC6E41A01FCBACFE00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jakarta-rizal-renaldi-iphone6-750x1334.jpg"; path = "../../../../Downloads/jakarta-rizal-renaldi-iphone6-750x1334.jpg"; sourceTree = "<group>"; };
+		DC6E41A21FCBAF8800EF5A14 /* BUUU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BUUU.png; path = ../../../../Desktop/BUUU.png; sourceTree = "<group>"; };
+		DC6E41A81FCBBE0D00EF5A14 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6E41641FCB969900EF5A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6E417A1FCB969900EF5A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6E41851FCB969900EF5A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC6E415E1FCB969800EF5A14 = {
+			isa = PBXGroup;
+			children = (
+				DC6E41691FCB969900EF5A14 /* Trip Jakarta */,
+				DC6E41801FCB969900EF5A14 /* Trip JakartaTests */,
+				DC6E418B1FCB969900EF5A14 /* Trip JakartaUITests */,
+				DC6E41681FCB969900EF5A14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6E41681FCB969900EF5A14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6E41671FCB969900EF5A14 /* Trip Jakarta.app */,
+				DC6E417D1FCB969900EF5A14 /* Trip JakartaTests.xctest */,
+				DC6E41881FCB969900EF5A14 /* Trip JakartaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6E41691FCB969900EF5A14 /* Trip Jakarta */ = {
+			isa = PBXGroup;
+			children = (
+				DC6E41A21FCBAF8800EF5A14 /* BUUU.png */,
+				DC6E41A01FCBACFE00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg */,
+				DC6E419A1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png */,
+				DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */,
+				DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */,
+				DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */,
+				DC6E41701FCB969900EF5A14 /* Main.storyboard */,
+				DC6E41731FCB969900EF5A14 /* Assets.xcassets */,
+				DC6E41751FCB969900EF5A14 /* LaunchScreen.storyboard */,
+				DC6E41781FCB969900EF5A14 /* Info.plist */,
+				DC6E419C1FCBA4D200EF5A14 /* JalanViewController.swift */,
+				DC6E419E1FCBA67400EF5A14 /* KotaWisata.swift */,
+				DC6E41A81FCBBE0D00EF5A14 /* WebViewController.swift */,
+			);
+			path = "Trip Jakarta";
+			sourceTree = "<group>";
+		};
+		DC6E41801FCB969900EF5A14 /* Trip JakartaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6E41811FCB969900EF5A14 /* Trip_JakartaTests.swift */,
+				DC6E41831FCB969900EF5A14 /* Info.plist */,
+			);
+			path = "Trip JakartaTests";
+			sourceTree = "<group>";
+		};
+		DC6E418B1FCB969900EF5A14 /* Trip JakartaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6E418C1FCB969900EF5A14 /* Trip_JakartaUITests.swift */,
+				DC6E418E1FCB969900EF5A14 /* Info.plist */,
+			);
+			path = "Trip JakartaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC6E41661FCB969900EF5A14 /* Trip Jakarta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6E41911FCB969900EF5A14 /* Build configuration list for PBXNativeTarget "Trip Jakarta" */;
+			buildPhases = (
+				DC6E41631FCB969900EF5A14 /* Sources */,
+				DC6E41641FCB969900EF5A14 /* Frameworks */,
+				DC6E41651FCB969900EF5A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trip Jakarta";
+			productName = "Trip Jakarta";
+			productReference = DC6E41671FCB969900EF5A14 /* Trip Jakarta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC6E417C1FCB969900EF5A14 /* Trip JakartaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6E41941FCB969900EF5A14 /* Build configuration list for PBXNativeTarget "Trip JakartaTests" */;
+			buildPhases = (
+				DC6E41791FCB969900EF5A14 /* Sources */,
+				DC6E417A1FCB969900EF5A14 /* Frameworks */,
+				DC6E417B1FCB969900EF5A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6E417F1FCB969900EF5A14 /* PBXTargetDependency */,
+			);
+			name = "Trip JakartaTests";
+			productName = "Trip JakartaTests";
+			productReference = DC6E417D1FCB969900EF5A14 /* Trip JakartaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC6E41871FCB969900EF5A14 /* Trip JakartaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6E41971FCB969900EF5A14 /* Build configuration list for PBXNativeTarget "Trip JakartaUITests" */;
+			buildPhases = (
+				DC6E41841FCB969900EF5A14 /* Sources */,
+				DC6E41851FCB969900EF5A14 /* Frameworks */,
+				DC6E41861FCB969900EF5A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6E418A1FCB969900EF5A14 /* PBXTargetDependency */,
+			);
+			name = "Trip JakartaUITests";
+			productName = "Trip JakartaUITests";
+			productReference = DC6E41881FCB969900EF5A14 /* Trip JakartaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6E415F1FCB969900EF5A14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC6E41661FCB969900EF5A14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DC6E417C1FCB969900EF5A14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC6E41661FCB969900EF5A14;
+					};
+					DC6E41871FCB969900EF5A14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC6E41661FCB969900EF5A14;
+					};
+				};
+			};
+			buildConfigurationList = DC6E41621FCB969900EF5A14 /* Build configuration list for PBXProject "Trip Jakarta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6E415E1FCB969800EF5A14;
+			productRefGroup = DC6E41681FCB969900EF5A14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6E41661FCB969900EF5A14 /* Trip Jakarta */,
+				DC6E417C1FCB969900EF5A14 /* Trip JakartaTests */,
+				DC6E41871FCB969900EF5A14 /* Trip JakartaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6E41651FCB969900EF5A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6E41A31FCBAF8800EF5A14 /* BUUU.png in Resources */,
+				DC6E41771FCB969900EF5A14 /* LaunchScreen.storyboard in Resources */,
+				DC6E419B1FCB9A5500EF5A14 /* Screen Shot 2017-11-27 at 07.55.32.png in Resources */,
+				DC6E41A11FCBACFF00EF5A14 /* jakarta-rizal-renaldi-iphone6-750x1334.jpg in Resources */,
+				DC6E41741FCB969900EF5A14 /* Assets.xcassets in Resources */,
+				DC6E41721FCB969900EF5A14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6E417B1FCB969900EF5A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6E41861FCB969900EF5A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6E41631FCB969900EF5A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6E416F1FCB969900EF5A14 /* SecondViewController.swift in Sources */,
+				DC6E41A91FCBBE0D00EF5A14 /* WebViewController.swift in Sources */,
+				DC6E419D1FCBA4D200EF5A14 /* JalanViewController.swift in Sources */,
+				DC6E416B1FCB969900EF5A14 /* AppDelegate.swift in Sources */,
+				DC6E416D1FCB969900EF5A14 /* FirstViewController.swift in Sources */,
+				DC6E419F1FCBA67400EF5A14 /* KotaWisata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6E41791FCB969900EF5A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6E41821FCB969900EF5A14 /* Trip_JakartaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6E41841FCB969900EF5A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6E418D1FCB969900EF5A14 /* Trip_JakartaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC6E417F1FCB969900EF5A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6E41661FCB969900EF5A14 /* Trip Jakarta */;
+			targetProxy = DC6E417E1FCB969900EF5A14 /* PBXContainerItemProxy */;
+		};
+		DC6E418A1FCB969900EF5A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6E41661FCB969900EF5A14 /* Trip Jakarta */;
+			targetProxy = DC6E41891FCB969900EF5A14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC6E41701FCB969900EF5A14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6E41711FCB969900EF5A14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC6E41751FCB969900EF5A14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6E41761FCB969900EF5A14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC6E418F1FCB969900EF5A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC6E41901FCB969900EF5A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC6E41921FCB969900EF5A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trip Jakarta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Trip-Jakarta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC6E41931FCB969900EF5A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trip Jakarta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Trip-Jakarta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC6E41951FCB969900EF5A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trip JakartaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Trip-JakartaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trip Jakarta.app/Trip Jakarta";
+			};
+			name = Debug;
+		};
+		DC6E41961FCB969900EF5A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trip JakartaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Trip-JakartaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trip Jakarta.app/Trip Jakarta";
+			};
+			name = Release;
+		};
+		DC6E41981FCB969900EF5A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trip JakartaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Trip-JakartaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trip Jakarta";
+			};
+			name = Debug;
+		};
+		DC6E41991FCB969900EF5A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trip JakartaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Trip-JakartaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trip Jakarta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6E41621FCB969900EF5A14 /* Build configuration list for PBXProject "Trip Jakarta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6E418F1FCB969900EF5A14 /* Debug */,
+				DC6E41901FCB969900EF5A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6E41911FCB969900EF5A14 /* Build configuration list for PBXNativeTarget "Trip Jakarta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6E41921FCB969900EF5A14 /* Debug */,
+				DC6E41931FCB969900EF5A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6E41941FCB969900EF5A14 /* Build configuration list for PBXNativeTarget "Trip JakartaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6E41951FCB969900EF5A14 /* Debug */,
+				DC6E41961FCB969900EF5A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6E41971FCB969900EF5A14 /* Build configuration list for PBXNativeTarget "Trip JakartaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6E41981FCB969900EF5A14 /* Debug */,
+				DC6E41991FCB969900EF5A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6E415F1FCB969900EF5A14 /* Project object */;
+}

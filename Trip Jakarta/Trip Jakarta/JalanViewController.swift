@@ -24,6 +24,11 @@ class JalanViewController: UIViewController {
         let Kidzania=kotawisata(title: "Kidzania", coordinate: CLLocationCoordinate2D(latitude: -6.225073, longitude: 106.809713))
         let Waterboom=kotawisata(title: "Waterboom Jakarta", coordinate: CLLocationCoordinate2D(latitude: -6.113721, longitude: 106.747860))
         let Jembatan=kotawisata(title: "Jembatan Kota Intan", coordinate: CLLocationCoordinate2D(latitude: -6.131247, longitude: 106.810544))
+        let Kepulauan=kotawisata(title: "Kepulauan Seribu", coordinate: CLLocationCoordinate2D(latitude: -5.612240, longitude: 106.616996))
+        let Ancol=kotawisata(title: "Taman Impian Jaya Ancol", coordinate: CLLocationCoordinate2D(latitude: -6.125554, longitude: 106.838166))
+        let pulau=kotawisata(title: "Pulau Tidung", coordinate: CLLocationCoordinate2D(latitude: -5.803205, longitude: 106.523791))
+        let kotatua=kotawisata(title: "Kawasan Kota Tua", coordinate: CLLocationCoordinate2D(latitude: -6.135200, longitude: 106.813300))
+        let bi=kotawisata(title: "Museum Bank Indonesia", coordinate: CLLocationCoordinate2D(latitude: -6.137127, longitude: 106.813005))
         
         mapView.addAnnotation(Dufan)
         mapView.addAnnotation(Monas)
@@ -33,6 +38,11 @@ class JalanViewController: UIViewController {
         mapView.addAnnotation(Kidzania)
         mapView.addAnnotation(Waterboom)
         mapView.addAnnotation(Jembatan)
+        mapView.addAnnotation(Kepulauan)
+        mapView.addAnnotation(Ancol)
+        mapView.addAnnotation(pulau)
+        mapView.addAnnotation(kotatua)
+        mapView.addAnnotation(bi)
         
     }
 

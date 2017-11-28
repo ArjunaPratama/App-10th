@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jakarta-rizal-renaldi-iphone6-750x1334.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0IK-cb-o8U">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BUUU.png" translatesAutoresizingMaskIntoConstraints="NO" id="0IK-cb-o8U">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="ZZf-xx-kUh"/>
@@ -42,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="jakarta-rizal-renaldi-iphone6-750x1334.jpg" width="750" height="1334"/>
+        <image name="BUUU.png" width="395" height="700"/>
     </resources>
 </document>

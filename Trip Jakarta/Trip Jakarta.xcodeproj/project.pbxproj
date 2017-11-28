@@ -18,6 +18,7 @@
 		DC6E419D1FCBA4D200EF5A14 /* JalanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E419C1FCBA4D200EF5A14 /* JalanViewController.swift */; };
 		DC6E419F1FCBA67400EF5A14 /* KotaWisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E419E1FCBA67400EF5A14 /* KotaWisata.swift */; };
 		DC6E41A91FCBBE0D00EF5A14 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E41A81FCBBE0D00EF5A14 /* WebViewController.swift */; };
+		DCA947E01FCD0240000AAFF7 /* BUUU.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA947DF1FCD0240000AAFF7 /* BUUU.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DC6E419C1FCBA4D200EF5A14 /* JalanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JalanViewController.swift; sourceTree = "<group>"; };
 		DC6E419E1FCBA67400EF5A14 /* KotaWisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotaWisata.swift; sourceTree = "<group>"; };
 		DC6E41A81FCBBE0D00EF5A14 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		DCA947DF1FCD0240000AAFF7 /* BUUU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUUU.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		DC6E41691FCB969900EF5A14 /* Trip Jakarta */ = {
 			isa = PBXGroup;
 			children = (
+				DCA947DF1FCD0240000AAFF7 /* BUUU.png */,
 				DC6E416A1FCB969900EF5A14 /* AppDelegate.swift */,
 				DC6E416C1FCB969900EF5A14 /* FirstViewController.swift */,
 				DC6E416E1FCB969900EF5A14 /* SecondViewController.swift */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA947E01FCD0240000AAFF7 /* BUUU.png in Resources */,
 				DC6E41771FCB969900EF5A14 /* LaunchScreen.storyboard in Resources */,
 				DC6E41741FCB969900EF5A14 /* Assets.xcassets in Resources */,
 				DC6E41721FCB969900EF5A14 /* Main.storyboard in Resources */,
